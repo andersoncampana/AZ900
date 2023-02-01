@@ -87,8 +87,6 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 3. Attempt to connect to the virtual machine by selecting RDP and downloading an running the RDP file. By default the network security group does not allow RDP. Close the error window. 
 
 
-    ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
-
 4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group denies all inbound traffic except traffic within the virtual network and load balancer probes.
 
 5. On the **Inbound port rules** tab, click **Add inbound port rule** . Click **Add** when you are done. 
