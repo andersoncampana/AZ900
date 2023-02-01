@@ -21,7 +21,6 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag and its value on resources** definition, click on it and click **Select**.
 
-   ![image](https://user-images.githubusercontent.com/89808319/155607579-d564a43e-a9cd-443d-8482-f47879eff2e9.png)
    
 6.  On the **Parameters** tab, type in **Company : Contoso ** for the tag key/value pair name. Click **Review + create**, and then **Create**.
 
@@ -29,8 +28,6 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 7. The **Require a tag amd its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
    **Note - you need to wait up to 30 minutes for the Policy to be applied.** 
-
-  ![image](https://user-images.githubusercontent.com/89808319/155607357-556646b6-9ca7-4817-a02e-643869b2c4dd.png)
 
 # Task 2: Create a storage account to test the required tagging
 
@@ -55,8 +52,6 @@ In this task, we will create storage accounts to test the required tagging.
 
     **Note:** If you view the Raw Error tab you will see the specific tag name that is required. 
 
-    ![Screenshot of disallowed due to policy error.](../images/1704.png)
-
 
 5. Close the **Error** pane and click **Previous** (bottom of the screen). Provide the tagging information. 
 
@@ -72,13 +67,9 @@ In this task, we will create storage accounts to test the required tagging.
 
 2. Note all tags and their values. Click the **Company : Contoso** key/value pair. This will display a blade showing the newly created storage account, as long as you included the tag during its deployment. 
 
-   ![Screenshot of the Tags with company and contoso selected.](../images/1705.png)
-
 3. In the Portal, display the **All resources** blade.
 
 4. Click **Add filter** and add the **Company** tag key as the filter category. With the filter applied, only your storage account will be listed.
-
-    ![Screenshot of the All Resources filter with Company selected.](../images/1706.png)
 
 # Task 4: Delete the policy assignment
 
