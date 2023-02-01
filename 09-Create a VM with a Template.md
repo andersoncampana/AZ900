@@ -23,7 +23,6 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. 
 
-    ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
 
 7. Now configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
 
@@ -50,7 +49,6 @@ In this task, we will verify the virtual machine deployed correctly.
 
 2. Ensure your new virtual machine was created. 
 
-    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/0902.png)
 
 3. Select your virtual machine and on the **Overview** pane, select the **Monitoring** tab, scroll down to view monitoring data.
 
@@ -58,7 +56,6 @@ In this task, we will verify the virtual machine deployed correctly.
 
 4. Review different charts that are provided including **CPU (average)**, **Network (total)**, and **Disk bytes (total)**. 
 
-    ![Screenshot of the virtual machine monitoring charts.](../images/0903.png)
 
 5. Click on any chart. Note that you can **Add metric** and change the chart type.
 
@@ -67,7 +64,6 @@ In this task, we will verify the virtual machine deployed correctly.
 
 8. Click **Add filter**, and experiment with searching for different event types and operations. 
 
-    ![Screenshot of the Add filters page with Event type selected.](../images/0904.png)
 
 Congratulations! You have successfully created a resource from a template and deployed that template to Azure.
 
