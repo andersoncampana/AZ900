@@ -55,8 +55,6 @@ In this task, we will view the activity log to verify the role assignment, and t
 
 2. Click **Add filter**, select **Operation**, and then **Create role assignment**.
 
-    ![Screenshot of the Activity log page with configured filter.](../images/1503.png)
-
 3. Verify the Activity log shows your role assignment. 
 
     **Note**: Can you figure out how to remove your role assignment?
