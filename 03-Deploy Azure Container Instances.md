@@ -57,11 +57,8 @@ In this task, we verify that the container instance is running by ensuring that 
 
 3. Locate the Fully Qualified Domain Name (FQDN).
 
-	![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/0202.png)
 
 2. Copy the container's FQDN into a new web browser tab and press **Enter**. The Welcome page should display. 
-
-	![Screenshot of the ACI welcome message shown in a web browser.](../images/0203.png)
 
 
 **Congratulations!** You have used Azure Portal to successfully deploy an application to a container in Azure Container Instances.
