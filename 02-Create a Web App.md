@@ -53,11 +53,9 @@ In this task, we will test the web app.
 
 3. On the **Overview** blade, locate the **URL**. Copy the URL to the clipboard.
 
-    ![Screenshot of the web app properties blade. The URL is highlighted.](../images/0801.png)
 
 4. In a new browser window, paste the URl and press enter. The Welcome to Azure Container Instances! welcome message will be displayed.
 
-    ![Screenshot of the Welcome to Azure Container Instance page.](../images/0802.png)
 
 5. Switch back to the **Overview** blade of your web app and scroll down. You will notice several charts tracking Data In/Out and Requests. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in these charts. This includes number of requests and average response time. 
 
